@@ -3,7 +3,7 @@ package com.projeto.fila;
 public class Main {
 	public static void main(String[] args) {
 		
-		Fila minhaFila = new Fila();
+		Fila<String> minhaFila = new Fila<>();
 		
 		minhaFila.enqueue("primeiro");
 		minhaFila.enqueue("segundo");
